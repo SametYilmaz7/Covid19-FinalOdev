@@ -1,0 +1,189 @@
+/*Animasyon için*/
+@keyframes transitionIn {
+
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* html tags */
+body {
+    background-color: whitesmoke;
+    animation: transitionIn 0.75s;
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100%;
+    border: solid 1px #25b3ed;
+    background-color: #05b6ff;
+    position: relative;
+    top: 80px;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 50px;
+    background-image: url('images/header-photo2.jpg');
+}
+
+header p {
+    font-size: 55px;
+    position: relative;
+    top: 90px;
+    left: 10px;
+    color: whitesmoke;
+}
+
+header img {
+    width: 135px;
+    position: relative;
+    top: -105px;
+    left: 1340px;
+    border-radius: 40px;
+    opacity: 0.8;
+
+}
+
+article {
+    animation: transitionIn 2s;
+}
+
+article img {
+    width: 500px;
+    position: relative;
+    top: 40px;
+    left: 35px;
+
+}
+
+section {
+    margin-top: 30px;
+}
+
+
+footer {
+    position: relative;
+    top: 150px;
+    width: 100%;
+    height: 150px;
+    background-color: #05b6ff;
+}
+
+footer p {
+    text-align: center;
+    color: whitesmoke;
+    position: relative;
+    top: 65px;
+}
+
+
+/*anasayfa*/
+.home-p {
+    text-align: left;
+    position: relative;
+    left: 600px;
+    top: -250px;
+
+
+}
+
+.home-h1 {
+    text-align: center;
+    position: relative;
+    left: 70px;
+    top: -255px;
+
+    color: #00b5ff;
+}
+
+/*haber*/
+
+#haberiframe1 {
+    position: relative;
+    top: 30px;
+}
+
+#haberiframe2 {
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
+
+#haberiframe3 {
+    position: relative;
+    top: 70px;
+}
+
+#haberiframe4 {
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+
+
+
+/*liste ve link */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    left: 750px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+li a:hover {
+    background-color: #25b3ed;
+    border-radius: 15px;
+}
+
+
+li a:visited {
+    color: whitesmoke;
+
+}
+
+/*Chart*/
+#chartContainer {
+
+    position: relative;
+    top: 30px;
+}
+
+/*iletisim*/
+
+#iletisim-h1 {
+    font-size: 35px;
+    color: #00b5ff;
+}
